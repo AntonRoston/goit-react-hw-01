@@ -1,0 +1,40 @@
+.table {
+    width: 800px;
+    border: 2px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0 auto 50px;
+}
+
+.title {
+    width: calc(100% / 3);
+    font-size: 28px;
+    font-weight: 500;
+    padding: 10px;
+    border-right: 2px solid black;
+    color: white;
+    background-color: rgb(42, 41, 41);
+}
+
+.textType {
+   font-size: 24px;
+    padding-left: 70px;
+    text-align: start;
+    border-right: 2px solid black; 
+    text-transform: capitalize;
+}
+
+.text {
+    font-size: 24px;
+    padding: 10px;
+    border-right: 2px solid black;
+
+}
+
+.tableString {
+    border-bottom: 2px solid black;
+}
+
+.tableString:nth-child(even) {
+    background-color: rgb(214, 208, 208);
+}
